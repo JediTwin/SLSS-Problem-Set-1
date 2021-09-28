@@ -30,13 +30,13 @@ print("A: Worcestershire")
 print("B: Edinburgh")
 print("or C: London")
 
-q2_answer = input().upper().strip(".")
+q2_answer = input().lower().strip(".")
 
-if q2_answer == "A":
+if q2_answer == "a":
     print("Really?")
-elif q2_answer == "B":
+elif q2_answer == "b":
     print("Not quite...")
-elif q2_answer == "C":
+elif q2_answer == "c":
     print("Correct!")
     score += 1
 else:
@@ -62,7 +62,7 @@ print("Question 4!")
 print("What is the chemical name of H2O2?")
 q4_answer = input().lower().strip(".")
 
-if q4_answer == "Hydrogen Peroxide":
+if q4_answer == "hydrogen peroxide":
     print("Correct!")
     score += 1
 elif q4_answer == "Water":
@@ -70,7 +70,26 @@ elif q4_answer == "Water":
 else:
     print("What?")
 
+time.sleep(2)
 
 # Question 5
 print("Final Question!")
-print("")
+print("What is a group of crows called?")
+print("A: A murder")
+print("B: A congress")
+print("or C: An unkindness")
+
+q5_answer = input().lower().strip(".")
+
+if q5_answer == "a" or "b" or "c":
+    print("They're all correct!")
+    score += 1
+else:
+    print("That question was free, how did you mess that up?")
+
+time.sleep(2)
+
+# Show final results
+print("The quiz is now over.")
+
+print(f"Your score is {score}/5 or {(score / 5) * 100}%")
