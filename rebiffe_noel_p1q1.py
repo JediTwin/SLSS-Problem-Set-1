@@ -15,9 +15,9 @@ print("Question 1: What is 5 + 6?")
 q1_answer = int(input())
 
 if q1_answer > 11:
-    print("A little too high there.")
+    print("Too high.")
 elif q1_answer < 11:
-    print("Just a bit higher.")
+    print("Too low.")
 elif q1_answer == 11:
     print("Correct!")
     score += 1
@@ -45,9 +45,9 @@ time.sleep(2)
 
 # Question 3
 print("Question 3: What was Game of the Year in 2020?")
-q3_answer = input().lower().strip(".")
+q3_answer = input().lower().strip(".,the")
 
-if q3_answer == "the last of us part 2" or "the last of us part II" or "the last of us 2":
+if q3_answer == "last of us part 2" or "last of us part II" or "last of us 2":
     print("Correct!")
     score += 1
 elif q3_answer == "hades":
