@@ -12,7 +12,8 @@ questions = [
     ["What is [bold red]5 + 6?[/bold red]", "11"],
     ["What is the capital of the United Kingdom?", "london"],
     ["What was Game of the Year in 2020?", "last of us part", "last of us"],
-    ["What is the [bold blue]chemical name[/bold blue] of [bold red]H2O2?[/bold red]", "hydrogen peroxide"]
+    ["What is the [bold blue]chemical name[/bold blue] of [bold red]H2O2?[/bold red]", "hydrogen peroxide"],
+    [""]
 ]
 
 print("Quiz Time!")
