@@ -20,7 +20,7 @@ print("Quiz Time!")
 time.sleep(2)
 
 # Question 1
-print("Question 1: What is 5 + 6?")
+print("Question 1: What is [bold]5 + 6[/bold]?")
 q1_answer = int(input())
 
 if q1_answer > 11:
@@ -34,7 +34,7 @@ elif q1_answer == 11:
 time.sleep(2)
 
 # Question 2
-print("Question 2: What is the capital of the United Kingdom?")
+print("Question 2: What is the [bold]capital[/bold] of the [bold red]United Kingdom[/bold red]?")
 print("A: Worcestershire")
 print("B: Edinburgh")
 print("or C: London")
@@ -53,7 +53,7 @@ else:
 time.sleep(2)
 
 # Question 3
-print("Question 3: What was Game of the Year in 2020?")
+print("Question 3: What was [bold]Game of the Year[/bold] in [bold red]2020[/bold red]?")
 q3_answer = input().lower().strip(".,the")
 
 if q3_answer == "last of us part 2" or "last of us part II" or "last of us 2":
@@ -68,7 +68,7 @@ time.sleep(2)
 
 # Question 4
 print("Question 4!")
-print("What is the chemical name of H2O2?")
+print("What is the [bold]chemical name[/bold] of [bold red]H2O2[/bold red]?")
 q4_answer = input().lower().strip(".")
 
 if q4_answer == "hydrogen peroxide":
@@ -83,7 +83,7 @@ time.sleep(2)
 
 # Question 5
 print("Final Question!")
-print("What is a group of crows called?")
+print("What is a [bold]group of crows[/bold] called?")
 print("A: A murder")
 print("B: A congress")
 print("or C: An unkindness")
