@@ -8,14 +8,6 @@ from rich import print
 
 score = 0
 
-# questions = [
-#     ["What is [bold red]5 + 6?[/bold red]", "11"],
-#     ["What is the capital of the United Kingdom?", "london"],
-#     ["What was Game of the Year in 2020?", "last of us part", "last of us"],
-#     ["What is the [bold blue]chemical name[/bold blue] of [bold red]H2O2?[/bold red]", "hydrogen peroxide"],
-#     [""]
-# ]
-
 print("Quiz Time!")
 time.sleep(2)
 
@@ -102,17 +94,3 @@ time.sleep(2)
 print("The quiz is now over.")
 
 print(f"Your score is {score}/5 or {(score / 5) * 100}%")
-
-# for question in questions:
-#     print(question[0])
-#
-#     user_answer = input().lower().strip(",.?!the2II")
-#
-#     if user_answer == question[1] or question[2]:
-#         print("Correct!")
-#         score += 1
-#         time.sleep(2)
-#
-#     else:
-#         print("That's wrong")
-#         time.sleep(2)
