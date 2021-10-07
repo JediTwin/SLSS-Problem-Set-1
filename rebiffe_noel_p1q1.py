@@ -93,4 +93,4 @@ time.sleep(2)
 # Show final results
 print("The quiz is now over.")
 
-print(f"Your score is {score}/5 or {(score / 5) * 100}%")
+print(f"Your score is [bold blue]{score}/5[/bold blue] or [bold red]{(score / 5) * 100}%[/bold red]")
